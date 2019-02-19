@@ -21,9 +21,9 @@ Store.create(
 
 Store.create(
   name: 'Gastown', 
-  annual_revenue: 190000, 
+  annual_revenue: 10, 
   mens_apparel: true,
   womens_apparel: false
 )
 
-puts Store.count
+pp Store.all

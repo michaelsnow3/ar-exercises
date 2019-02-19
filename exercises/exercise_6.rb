@@ -18,7 +18,7 @@ puts "----------"
 @store1.employees.create(
   first_name: "Mike", 
   last_name: "Snow", 
-  hourly_rate: 600
+  hourly_rate: 201
 )
 
 @store2.employees.create(
@@ -28,7 +28,8 @@ puts "----------"
 )
 
 @store2.employees.create(
-  first_name: "Mike", 
+  first_name: "Mike",
   last_name: "Myers", 
   hourly_rate: 50
 )
+pp @store2.employees
